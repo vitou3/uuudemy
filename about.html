@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            font-size: 14px; /* Smaller base font size */
+        }
+        
+        html {
+            box-sizing: border-box;
+        }
+        
+        *, *:before, *:after {
+            box-sizing: inherit;
+        }
+        
+        .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 12px; /* Smaller margin */
+            padding: 0 6px; /* Smaller padding */
+        }
+        
+        .card {
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); /* Reduced shadow size */
+            margin: 6px; /* Smaller margin */
+        }
+        
+        .about-section {
+            padding: 30px; /* Smaller padding */
+            text-align: center;
+            background-color: #474e5d;
+            color: white;
+        }
+        
+        .container {
+            padding: 0 12px; /* Smaller padding */
+        }
+        
+        .container::after, .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        .title {
+            color: grey;
+            font-size: 16px; /* Smaller title size */
+        }
+        
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 6px; /* Smaller padding */
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 14px; /* Smaller button text size */
+        }
+        
+        .button:hover {
+            background-color: #555;
+        }
+        
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="about-section">
+    <h1>Udemy Clone</h1>
+    
+    <p>From my perspective i think this website suit the best for student<br/> especially those who lost their way of learning. Unlike udemy our website is completely free and it is so easy to use.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+    <div class="column">
+        <div class="card">
+            <img src="sreypov.jpg" alt="sreypov" style="width:100%">
+            <div class="container">
+                <h2>Kong Sreypov</h2>
+                <p class="title">Team Leader</p>
+                <p>She manages all the work for teammates and write the book</p>
+                <p>sreypovkonglove002@gmail.com</p>
+                <p><button class="button" onclick="window.location.href='https://web.telegram.org/a/#1212866309'">Contact</button></p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="column">
+        <div class="card">
+            <img src="myself.jpg" alt="vitou" style="width:100%">
+            <div class="container">
+                <h2>Srun Sophavitou</h2>
+                <p class="title">Coding</p>
+                <p>I do all the coding stuff. Some parts I share with the team</p>
+                <p>vitou@gmail.com</p>
+                <p><button class="button" onclick="window.location.href='https://vitou3.github.io/Capstone-project/'">Contact</button></p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="column">
+        <div class="card">
+            <img src="kimleng.jpg" alt="kimleng" style="width:100%">
+            <div class="container">
+                <h2>Bou Kimleng</h2>
+                <p class="title">Writer</p>
+                <p>He do the presentation slideshow</p>
+                <p>kimleng@gmail.com</p>
+                <p><button class="button" onclick="window.location.href='https://web.telegram.org/a/#1149396441'">Contact</button></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="column">
+        <div class="card">
+            <img src="vanchai.jpg" alt="vanchai" style="width:100%">
+            <div class="container">
+                <h2>Sret Vanchai</h2>
+                <p class="title">Slides</p>
+                <p>He manages all image for this about us page and image for course</p>
+                <p>vanchai@gmail.com</p>
+                <p><button class="button" onclick="window.location.href='https://web.telegram.org/a/#1000421761'">Contact</button></p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="column">
+        <div class="card">
+            <img src="seangmey.jpg" alt="seangmey" style="width:100%">
+            <div class="container">
+                <h2>Iv Seangmey</h2>
+                <p class="title">Information</p>
+                <p>He gathers crucial information about the website</p>
+                <p>ivseangmey@gmail.com</p>
+                <p><button class="button" onclick="window.location.href='https://web.telegram.org/a/#1078445405'">Contact</button></p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="column">
+        <div class="card">
+            <img src="panha.jpg" alt="panha" style="width:100%">
+            <div class="container">
+                <h2>Hok Panha</h2>
+                <p class="title">Resource</p>
+                <p>She provides all the important resources related to the website</p>
+                <p>panha@gmail.com</p>
+                <p><button class="button" onclick="window.location.href='https://web.telegram.org/a/#1807681172'">Contact</button></p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="column">
+        <div class="card">
+            <img src="kimhong.PNG" alt="Kimhong" style="width:100%">
+            <div class="container">
+                <h2>Keng Kimhong</h2>
+                <p class="title">Script</p>
+                <p>He prepares all the scripts for presentations</p>
+                <p>kimhong@gmail.com</p>
+                <p><button class="button" onclick="window.location.href='https://web.telegram.org/a/#1039080488'">Contact</button></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
